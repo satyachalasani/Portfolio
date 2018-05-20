@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SreeSatya Chalasani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- custom bootstrap css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+<!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+<!-- bootstrap javascript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <!-- font awesome -->
+         <script src="https://use.fontawesome.com/3b89907a3c.js"></script>
+    <!-- jquery for bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+ 
+  <body>
+<!-- open flex container -->
+    <section class="flex-container">
+<!-- open header -->
+      <!-- open flex container -->
+    <section class="flex-container">
+<!-- open header -->
+      <header>
+          <section class=" row container ">
+              <div  class="col-6 logo">
+                  <img class="logo" src="Logoimg/Logo.png" id="logo" alt="logo which reads SSC"></div>
+        
+              <div class="col-6 pull-up name">
+                  <h1>Sree S Chalasani</h1>
+                  <h2 >FullStack Web Dev</h2>
+              </div>
+          </section>
+     
+
+<!-- open bootstrap nav -->
+        <nav class="row navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target= "#collapse-navbar">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+            <div class="collapse navbar-collapse" id="collapse-navbar" role="navigation">
+              <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-item" href="#featured">Featured Work</a></li>
+                <li class="nav-item"><a class="nav-item" href="#social">Contact-me</a></li>
+              </ul>
+          </div>
+        </nav>  <!-- end nav -->
+      </header>  <!-- end header -->
+      <div class="row hero">
+        <img class="column-12  hero-img img-responsive" src="images/B1-1200x867.jpg" srcset="images/B1-700x467.png 700w, images/B1-1000x667.jpg 1000w, images/B1-1200x867.jpg 1200w" sizes="(max-width: 550px) 100vw, (max-width: 768px) 100vw" alt="bright blue and pink coloured image of stars">
+      </div>
+      
+      <h2 class="row project-title " id="featured">Featured Work</h2>
+      <section class="row projects">
+        <div class="col-6 project">
+          <a href="http://www.github.com">
+            <img class="project-img" src="images/a3-1200x867.jpg" srcset="images/a3-700x467.png 700w, images/a3-1000x667.jpg 1000w, images/a3-1200x867.jpg 1200w" sizes="(max-width: 550px) 100vw, (max-width: 768px) 100vw" alt="abstract painting of an owl">
+          </a>
+          <h3>Project One</h3>
+          <p>Udacity Front-end Web development Nanodegree.</p>
+          <a href="http://www.github.com">www.github.com</a>
+        </div>
+        <div class="col-6 project">
+          <a href="http://www.github.com">
+            <img class="project-img " src="images/a1-1200x867.jpg" srcset="images/a1-700x467.jpeg 700w, images/a1-1000x667.jpeg 1000w, images/a1-1200x867.jpg 1200w" sizes="(max-width: 550px) 100vw, (max-width: 768px) 100vw" alt="light blue colored abstract painting">
+          </a>
+          <h3>Project Two</h3>
+          <p>Udacity Front-end Web development Nanodegree.</p>
+          <a href="http://www.github.com">www.github.com</a>
+        </div>
+        <div class="col-6 project">
+          <a href="http://www.github.com">
+            <img class="project-img " src="images/a2-1200x867.jpg" srcset="images/a2-700x467 700w, images/a2-1000x667.jpeg 1000w, images/a2-1200x867.jpg 1200w" sizes="(max-width: 550px) 100vw, (max-width: 768px) 100vw" alt="colourfull oil painting of an cartoon">
+          </a>
+          <h3>Project Three</h3>
+          <p>Udacity Front-end Web development Nanodegree.</p>
+          <a href="http://www.github.com">www.github.com</a>
+        </div>
+      </section>
+
+<!-- open footer -->
+      <footer class="row col-12" id="social">
+        <ul>
+          <li><a href="https://github.com/SreeSatyachalasani" target="blank"><i class="fa fa-github fa-4x"></i></a>
+          </li>
+          <li><a href="https://twitter.com/sreeesatya" target="blank"><i class="fa fa-twitter-square fa-4x"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/sree-s-chalasani/" target="blank"><i class="fa fa-linkedin-square fa-4x"></i></a>
+          </li>
+        </ul>
+      </footer>  <!-- close footer -->
+    </section>  <!-- close container -->
+
+    <script>
+    $('a[href*=\\#]').on('click', function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+    </script>
+      </section>
+  </body>
+</html>
