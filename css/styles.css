@@ -97,22 +97,13 @@ h2{
 body  {
   
   font-family: "Roboto", sans-serif;
-  
+  background-color: aliceblue;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  overflow-x:hidden;
 }
-body{
-    background-color: aliceblue;
-}
-body {
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    overflow-x:hidden;
-    
-
-
-}
-
 
  img, div {
   max-width: 100%;
