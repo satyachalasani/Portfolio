@@ -39,5 +39,5 @@ Basic framework for a personal portfolio site. Design is responsive.
 
 4.Take the time to personalize your portfolio with custom colors, additional content and your own images.
 
-5.Validate your HTML and CSS against the W3C's Validators.
+5.Validate your HTML and CSS against the W3C's Validators.*****
 
