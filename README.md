@@ -41,3 +41,8 @@ Basic framework for a personal portfolio site. Design is responsive.
 
 5.Validate your HTML and CSS against the W3C's Validators.
 
+<div align="center">
+    <img src="/neighborhoodMAP/neighbourhood-map.png" width="900px"</img> 
+</div>
+
+
