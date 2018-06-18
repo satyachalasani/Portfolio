@@ -42,7 +42,7 @@ Basic framework for a personal portfolio site. Design is responsive.
 5.Validate your HTML and CSS against the W3C's Validators.
 
 <div align="center">
-    <img src="/Portfolio/Snip20180618_6.png" width="900px"</img> 
+    <img src="Snip20180618_6.png" width="900px"</img> 
 </div>
 
 
